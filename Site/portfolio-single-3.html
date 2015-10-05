@@ -55,11 +55,13 @@
 					</button>
 
 					<!-- YOU LOGO HERE -->
+					<a name="home_link">
 					<a class="navbar-brand" href="#">
 						<!-- IMAGE OR SIMPLE TEXT -->
 						Malissa Romero
 						<!-- <img class="dark-logo" src="assets/images/site-logo.png" width="95" alt="">
 						<img class="light-logo" src="assets/images/site-logo-light.png" width="95" alt=""> -->
+					</a>
 					</a>
 				</div>
 
@@ -68,7 +70,7 @@
 					<ul class="nav navbar-nav navbar-right">
 
 						<li class="dropdown">
-							<a href="/" data-toggle="dropdown">Home</a>
+							<a href="#home_link" data-toggle="dropdown">Home</a>
 						</li>
 
 						<li class="dropdown">
@@ -139,7 +141,7 @@
 						</li>
 
 						<li class="dropdown">
-							<a href="#" data-toggle="dropdown">Portfolio</a>
+							<a href="#portfolio_link" data-toggle="dropdown">Portfolio</a>
 							<!-- <ul class="dropdown-menu" role="menu">
 
 								<li class="dropdown">
@@ -162,7 +164,7 @@
 						</li>
 
 						<li class="dropdown">
-							<a href="#" data-toggle="dropdown">Contact</a>
+							<a href="#contact_link" data-toggle="dropdown">Contact</a>
 							<!-- <ul class="dropdown-menu" role="menu">
 
 								<li class="dropdown">
@@ -213,48 +215,59 @@
 		<!-- HERO -->
 		<section id="hero" class="module-hero module-full-height">
 
-			<div id="slides">
+			<div id="slides1">
 
 				<ul class="slides-container">
 
-					<li class="bg-dark bg-film">
-						<img src="assets/images/kitten.jpg" alt="">
+					<li class="bg-light-30">
+						<img src="assets/images/kitten.jpg" class="kitten">
 
 						<!-- HERO TEXT -->
 						<div class="hero-caption">
 							<div class="hero-text">
-								<h1 class="mh-line-size-1 font-alt m-b-50 wow fadeInDown">Superslides</h1>
-								<h5 class="mh-line-size-5 font-alt wow fadeInDown" data-wow-delay="0.7s">Create your own animation of text </h5>
+								<h1 class="mh-line-size-2 font-alt m-b-50 wow bounceInDown">Hi My name is Malissa</h1>
+								<h5 class="mh-line-size-5 font-alt wow bounceInLeft" data-wow-delay="0.7s">I am a full stack web developer</h5>
+								<h6 class="mh-line-size-5 font-alt wow bounceInLeft" data-wow-delay="0.7s">&#x25BC;</h6>
 							</div>
 						</div>
 						<!-- /HERO TEXT -->
 					</li>
 
-					<li class="bg-light-30">
-						<img src="assets/images/kitten.jpg" alt="">
+					<!-- <li class="bg-light-30">
+						<img src="assets/images/dch.jpg" alt="">
 
-						<!-- HERO TEXT -->
 						<div class="hero-caption">
 							<div class="hero-text">
 								<h1 class="mh-line-size-2 font-alt m-b-50 wow bounceInDown">Superslides support</h1>
 								<h5 class="mh-line-size-5 font-alt wow bounceInLeft" data-wow-delay="0.7s">More than 50 css animations</h5>
 							</div>
 						</div>
-						<!-- /HERO TEXT -->
-					</li>
 
-					<li class="bg-dark bg-dark-30">
-						<img src="assets/images/kitten.jpg" alt="">
+					</li> -->
 
-						<!-- HERO TEXT -->
+					<!-- <li class="bg-light-30">
+						<img src="assets/images/wanderlist.jpg" alt="">
+
 						<div class="hero-caption">
 							<div class="hero-text">
-								<h5 class="mh-line-size-5 font-alt m-b-50 wow rotateIn">Present yourself</h5>
-								<h1 class="mh-line-size-3 font-alt wow rotateInUpRight" data-wow-delay="0.7s">Build your own style</h1>
+								<h1 class="mh-line-size-2 font-alt m-b-50 wow bounceInDown">Superslides support</h1>
+								<h5 class="mh-line-size-5 font-alt wow bounceInLeft" data-wow-delay="0.7s">More than 50 css animations</h5>
 							</div>
 						</div>
-						<!-- /HERO TEXT -->
-					</li>
+
+					</li> -->
+
+					<!-- <li class="bg-light-30">
+						<img src="assets/images/match_me.jpg" alt="">
+
+						<div class="hero-caption">
+							<div class="hero-text">
+								<h1 class="mh-line-size-2 font-alt m-b-50 wow bounceInDown">Superslides support</h1>
+								<h5 class="mh-line-size-5 font-alt wow bounceInLeft" data-wow-delay="0.7s">More than 50 css animations</h5>
+							</div>
+						</div>
+
+					</li> -->
 
 				</ul>
 
@@ -414,7 +427,9 @@
 				<!-- MODULE TITLE -->
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
+						<a name="portfolio_link">
 						<h2 class="module-title font-alt">Portfolio</h2>
+						</a>
 					</div>
 				</div>
 				<!-- /MODULE TITLE -->
@@ -426,7 +441,7 @@
 						<div class="post">
 							<div class="post-media">
 								<a href="blog-single.html">
-									<img src="assets/images/blog/blog-1.jpg" alt="">
+									<img src="assets/images/dch.jpg" alt="">
 								</a>
 							</div>
 							<!-- <div class="post-meta font-alt">
@@ -434,17 +449,20 @@
 							</div> -->
 							<div class="post-header">
 								<h5 class="post-title font-alt">
-									<a href="blog-single.html">Developer Command Hacks</a>
+									<a href="https://developer-command-hacks.herokuapp.com/categories">Developer Command Hacks</a>
 								</h5>
 							</div>
 							<div class="post-meta font-alt">
 								HTML / CSS / RUBY / RAILS
 							</div>
 							<div class="post-entry">
-								<p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
+								<p>The Developer Command Hacks allows for a developer to learn new commands every day. The developer can click on a category of their choosing and begin to learn or they can submit a command for others!</p>
 							</div>
 							<div class="post-more-link font-alt">
-								<a href="blog-single.html">Read more</a>
+								<a href="https://developer-command-hacks.herokuapp.com/categories">Website</a>
+							</div>
+							<div class="post-more-link font-alt">
+								<a href="https://github.com/malissaromero/developer_command_hacks">Source Code</a>
 							</div>
 						</div>
 					</div>
@@ -455,22 +473,25 @@
 						<div class="post">
 							<div class="post-media">
 								<a href="blog-single.html">
-									<img src="assets/images/blog/blog-2.jpg" alt="">
+									<img src="assets/images/wanderlist.jpg" alt="">
 								</a>
 							</div>
 							<div class="post-header">
 								<h5 class="post-title font-alt">
-									<a href="blog-single.html">Wanderlist</a>
+									<a href="https://wander-list.herokuapp.com/">Wanderlist</a>
 								</h5>
 							</div>
 							<div class="post-meta font-alt">
 								HTML / CSS / EXPRESS / NODE /SEQUELIZE
 							</div>
 							<div class="post-entry">
-								<p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
+								<p>The WanderList is a group project where four students created an interactive pinboard bucketlist. Users can share their adventures and desired trips. Users can drop red pins for places that they want to go and green pins for the places that they've been. Clicking on a pin opens a sidebar where details about the users trips can be added, including photos and notes.</p>
 							</div>
 							<div class="post-more-link font-alt">
-								<a href="blog-single.html">Read more</a>
+								<a href="https://wander-list.herokuapp.com/">Website</a>
+							</div>
+							<div class="post-more-link font-alt">
+								<a href="https://github.com/malissaromero/wanderlist">Source Code</a>
 							</div>
 						</div>
 					</div>
@@ -481,23 +502,26 @@
 						<div class="post">
 							<div class="post-media">
 								<a href="blog-single.html">
-									<img src="assets/images/blog/blog-3.jpg" alt="">
+									<img src="assets/images/match_me.jpg" alt="">
 								</a>
 							</div>
 							<div class="post-header">
 								<h5 class="post-title font-alt">
-									<a href="blog-single.html">Final Project</a>
+									<a href="#portfolio_link">Match Me</a>
 								</h5>
 							</div>
 							<div class="post-meta font-alt">
 								HTML / CSS / RUBY / RAILS
 							</div>
 							<div class="post-entry">
-								<p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
+								<p>The Match Me is a dating application that allows a user to meet other users in their area based on the results of their personality assessment that can be completed in one minute.<strong> The site is currently under construction. Please stay tuned.<strong></p>
+							</div>
+							<!-- <div class="post-more-link font-alt">
+								<a href="#portfolio_link">Website</a>
 							</div>
 							<div class="post-more-link font-alt">
-								<a href="blog-single.html">Read more</a>
-							</div>
+								<a href="#portfolio_link">Source Code</a>
+							</div> -->
 						</div>
 					</div>
 					<!-- /POST -->
@@ -517,7 +541,9 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<!-- IMAGE OR SIMPLE TEXT -->
+						<a name="contact_link">
 						<h2 class="module-title font-alt">Contact Me</h2>
+					</a>
 					</div>
 				</div>
 
@@ -550,8 +576,8 @@
 							<h5 class="alt-content-box-title font-alt">
 								Follow Me
 							</h5>
-							<a href="https://twitter.com/">Linked In</a><br>
-							<a href="https://dribbble.com/">Twitter</a>
+							<a href="https://www.linkedin.com/pub/malissa-romero/41/208/1b3">Linked In</a><br>
+							<a href="https://twitter.com/malissaromero">Twitter</a>
 						</div>
 						<!-- /ALT CONTENT BOX -->
 						<!-- <h5 class="font-alt m-t-0 m-b-20">Useful links</h5>
